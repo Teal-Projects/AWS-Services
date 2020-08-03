@@ -34,9 +34,10 @@ h5. Spot instances :
 ** Define max spot price and get the instance while current spot price < max.
 *** The hourly spot price varies based on offer and capacity.
 *** If the current spot price > your max price you can choose to stop or terminate your instance with a 2 minute grace period.
-** Spot Block
-***"Block" spot instance during a specified time frame (a to 6 hours) without interruptions.
-
+** Spot Block :
+*** "Block" spot instance during a specified time frame (a to 6 hours) without interruptions.
+* Spot Fleet :
+*
 
 * Recommended for :
 ** Applications that have flexible start and end times (Batch job, Data analysis,image processing...).

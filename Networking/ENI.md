@@ -9,6 +9,7 @@ h5. General :
 * An instances can have multiple network interfaces.
 * Every instance in a VPC have a default network interface.
 * You can enable VPC flow log on the network interface to capture IP traffic.
+* Bound to a specific Availability Zone.
 
 h5. virtual network card containning :
 * A primary IPV4 from the VPC range

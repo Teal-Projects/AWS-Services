@@ -20,10 +20,12 @@ h5. Select your AMI based on :
 
 h5. AMI Category : 
 * EBS-backed instances :
+	* Network drive
 	* the root device for an AWS instance – launched using AMI – is an Amazon EBS volume that has been created from Amazon EBS.
 	* The EBS backed instance can be stop without losing all the data on it. 
 	* When an Instance is terminated , you can ask AWS to keep the root device volume. 
 * Instance store-backed instances :
+	* Physically attached to the machine.
 	* the root device for an AWS instance – launched using Ami – is an Amazon instance store volume that has been created from an Amazon S3 template.
 	* This volume can not be stopped. If the underlying host fails, you will lose all your data.  
 
